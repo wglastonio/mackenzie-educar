@@ -1,8 +1,8 @@
-# Projeto EDUCAR - PPADS <br />
+## Projeto EDUCAR - PPADS <br /><br />
 
-## Grupo
-Still I Rise! <br />
+### Grupo
+Still I Rise! <br /><br />
 
-## Participantes
+### Participantes
 - Wglastonio Sousa
 
