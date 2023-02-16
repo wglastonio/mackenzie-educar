@@ -1,7 +1,7 @@
-#Projeto EDUCAR - PPADS
+# Projeto EDUCAR - PPADS
 
-Grupo: The last dance!
+Grupo: Still I Rise!
 
-#Participantes
+# Participantes
 - Wglastonio Sousa
 
