@@ -4,5 +4,5 @@
 Still I Rise! <br /><br />
 
 ### Participantes
-- Wglastonio Sousa
+Wglastonio Sousa
 
