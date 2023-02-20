@@ -1,5 +1,5 @@
 ## Projeto PPADS <br /><br />
-Aplicação para consulta de casos de Covid via API.
+Plataforma para estudos e jogos educativos.<br />
 
 ### Grupo
 Just One! <br /><br />
