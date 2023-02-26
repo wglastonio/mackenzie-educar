@@ -1,0 +1,151 @@
+/* Variáveis */
+:root {
+    --pageBackground: url(../img/background.jpg);
+    --cardBackground: #12c2b3;
+    --buttonBackground: #065e56;
+    --fontColor: #393939;
+    --shadows: rgba(57, 57, 57, 0.2)
+}
+
+/* Fontes */
+
+/* Mobile */
+* {
+    font-size: 14pt;
+}
+
+
+/* Reset */
+html,
+body {
+    height: 100%;
+    margin: 10px;
+    padding: 0;
+}
+
+/* Estilos básicos */
+* {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: var(--fontColor);
+}
+
+h1 {
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0px 0px 15px 0px;
+    padding: 5px;
+    text-align: center;
+}
+
+body {
+    background: var(--pageBackground);
+}
+
+section {
+    display: flex;
+    justify-content: space-around;   
+}
+
+p {
+    margin: 5px;
+    padding: 5px;
+}
+
+article.period {
+    margin: 10px 10px 0px 10px;
+    box-shadow: 0 0 10px var(--shadows);
+    border-radius: 10px;
+    background-color: var(--cardBackground);
+    padding: 5px;
+    text-align: center;
+    width: 70%;
+    height: auto;
+}
+
+article.result {
+    margin: 10px 10px 0px 10px;
+    box-shadow: 0 0 10px var(--shadows);
+    border-radius: 10px;
+    background-color: var(--cardBackground);
+    padding: 5px;
+    text-align: left;
+    width: 70%;
+    height: auto;
+}
+
+select {
+    width: 40%;
+    margin: 5px 0px 0px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+input[type="submit"]{
+    width: 70%;
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    background: #a9ede8;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    width: 70%;
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    color: #fff;
+    background-color: var(--buttonBackground);
+}
+
+input[type="checkbox"]{
+    margin: 20px;
+    padding: 5px;
+}
+
+.resultNone {
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+}
+
+/* Web e outros tamanhos */
+@media only screen and (min-width: 920px) {
+
+    p.result {
+        margin: 0px 0px 5px 30px;
+        padding: 5px;
+    }
+
+    p.resultNone {
+        margin: 50px 0px 0px 0px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    article.period {
+        margin: 10px 0px 0px 0px;
+        width: 70%;
+        height: 290px;
+    }
+
+    article.result {
+        margin: 10px 0px 0px 0px;
+        width: 70%;
+        height: 250px;
+    }
+
+    select {
+        width: 40%;
+        padding: 5px;
+        border-radius: 5px;
+        border-style: none;
+        color: #bdb4b4;
+    }
+}
