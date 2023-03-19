@@ -1,5 +1,5 @@
 ## Projeto PPADS <br /><br />
-Plataforma para estudos e jogos educativos.<br /><br />
+Plataforma para consulta de casos de Covid-19 no Brasil.<br /><br />
 
 ### Grupo
 Just One! <br /><br />
