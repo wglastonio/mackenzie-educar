@@ -30,19 +30,32 @@ body {
 }
 
 h1 {
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 0px 0px;
     padding: 5px;
     text-align: center;
+    font-size: 1em;
+    color: rgb(59, 57, 57);
+    
 }
 
 h2 {
     margin: 0px 0px 15px 0px;
     padding: 5px;
     text-align: center;
+    font-size: 0.8em;
 }
 
 body {
     background: var(--pageBackground);
+}
+
+div {
+    margin: 50px 0px 10px 0px;
+    box-shadow: 0 0 10px var(--shadows);
+    border-radius: 10px;
+    background-color: var(--cardBackground);
+    width: 70%;
+    height: auto;
 }
 
 section {
@@ -60,10 +73,11 @@ article.period {
     box-shadow: 0 0 10px var(--shadows);
     border-radius: 10px;
     background-color: var(--cardBackground);
-    padding: 5px;
+    padding: 20px 0px 0px 0px;
     text-align: center;
     width: 70%;
     height: auto;
+    font-size: 0.7em;
 }
 
 article.result {
@@ -78,30 +92,38 @@ article.result {
 }
 
 select {
-    width: 40%;
-    margin: 5px 0px 0px 0px;
-    padding: 5px;
+    width: 50%;
+    margin: 0px;
+    padding: 10px;
     border-radius: 5px;
     border-style: none;
+    font-size: 0.7em;
+    color: #bdb4b4;
+}
+
+option {
+    font-size: 1em;
 }
 
 input[type="submit"]{
-    width: 70%;
+    width: 75%;
     margin: 10px 0px 0px 0px;
     padding: 10px;
     border-radius: 5px;
     border-style: none;
     background: #a9ede8;
     font-weight: bold;
+    font-size: 1em;
 }
 
 input[type="submit"]:hover {
-    width: 70%;
+    width: 75%;
     margin: 10px 0px 0px 0px;
     padding: 10px;
     border-radius: 5px;
     border-style: none;
     color: #fff;
+    font-size: 1em;
     background-color: var(--buttonBackground);
 }
 
@@ -118,6 +140,35 @@ input[type="checkbox"]{
 /* Web e outros tamanhos */
 @media only screen and (min-width: 920px) {
 
+    div {
+        margin: 50px 0px 10px 0px;
+        box-shadow: 0 0 10px var(--shadows);
+        border-radius: 10px;
+        background-color: var(--cardBackground);
+        width: 70%;
+        height: auto;
+    }
+
+    h1 {
+        margin: 10px 0px 0px 0px;
+        padding: 5px;
+        text-align: center;
+        font-size: 1.8em;
+        color: rgb(59, 57, 57);
+        
+    }
+    
+    h2 {
+        margin: 0px 0px 15px 0px;
+        padding: 5px;
+        text-align: center;
+        font-size: 1.4em;
+    }
+
+    option {
+        font-size: 0.9em;
+    }
+
     p.result {
         margin: 0px 0px 5px 30px;
         padding: 5px;
@@ -130,22 +181,25 @@ input[type="checkbox"]{
     }
 
     article.period {
-        margin: 10px 0px 0px 0px;
+        margin: 10px 0px 10px 0px;
+        padding: 10px 0px 10px 0px;
         width: 70%;
-        height: 290px;
+        height: auto;
     }
 
     article.result {
-        margin: 10px 0px 0px 0px;
+        margin: 10px 0px 10px 0px;
+        padding: 10px 0px 10px 0px;
         width: 70%;
-        height: 250px;
+        height: auto;
     }
 
     select {
-        width: 40%;
-        padding: 5px;
+        width: 50%;
+        padding: 10px;
         border-radius: 5px;
         border-style: none;
         color: #bdb4b4;
+        font-size: 0.9em;
     }
 }

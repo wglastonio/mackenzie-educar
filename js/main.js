@@ -12,11 +12,15 @@ getJSON(url, function(data) {
     jsonResponse = data;
     });
 
-window.onload = function() {    
+window.onload = function() {
+    document.getElementById("head1").innerHTML = 
+        "<div>" +
+            "<h1>Consulta Casos de Covid</h1>" +
+            "<h2>Mackenzie - Projeto PPADS</h2>" +
+        "</div>";
     document.getElementById("content1").innerHTML = 
         "<article class='period'>" +
             "<form action='' onsubmit='buildDateAndShowData();return false';>" + 
-                "<h1>Consulta Casos de Covid</h1>" +
                 "<p>" +
                     "<select id='yearForm' name='Ano'>" + 
                         "<option selected disabled>Escolha o Ano</option>" + 
