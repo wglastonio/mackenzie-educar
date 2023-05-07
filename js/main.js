@@ -107,7 +107,7 @@ function buildDateAndShowData() {
     if (diff < 0 || diffToday < 0) {
         document.getElementById("content2").innerHTML =
         "<article class='result'>" +
-        "<h1>Informações do dia: <span>" + day + "/" + month + "/" + year + "</span></h1>" +
+        "<h3>Informações do dia: <span>" + day + "/" + month + "/" + year + "</span></h3>" +
             "<p class='resultNone'>Sem informações para a data informada!</p>" +
         "</article>";
     } else {
@@ -119,7 +119,7 @@ function buildDateAndShowData() {
 
         document.getElementById("content2").innerHTML =
         "<article class='result'>" +
-            "<h1>Informações do dia: <span>" + day + "/" + month + "/" + year + "</span></h1>" +
+            "<h3>Informações do dia: <span>" + day + "/" + month + "/" + year + "</span></h3>" +
             "<p class='result'>País: " + country + "</p>" +
             "<p class='result'>Casos do Dia: " + parseInt(casesDif).toLocaleString('pt-BR') + "</p>" +
             "<p class='result'>Casos Acumulados: " + parseInt(cases).toLocaleString('pt-BR') + "</p>" +
