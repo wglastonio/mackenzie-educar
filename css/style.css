@@ -33,7 +33,7 @@ h1 {
     margin: 10px 0px 0px 0px;
     padding: 5px;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.2em;
     color: rgb(59, 57, 57);
     
 }
@@ -42,7 +42,18 @@ h2 {
     margin: 0px 0px 15px 0px;
     padding: 5px;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1em;
+}
+
+h3 {
+    margin: 0px 0px 15px 0px;
+    padding: 4px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+span {
+    font-size: 0.9em;
 }
 
 body {
@@ -66,6 +77,12 @@ section {
 p {
     margin: 5px;
     padding: 5px;
+}
+
+p.result {
+    margin: 0px 0px 5px 30px;
+    padding: 5px;
+    font-size: 0.8em;
 }
 
 article.period {
@@ -153,7 +170,7 @@ input[type="checkbox"]{
         margin: 10px 0px 0px 0px;
         padding: 5px;
         text-align: center;
-        font-size: 1.8em;
+        font-size: 1.6em;
         color: rgb(59, 57, 57);
         
     }
@@ -162,7 +179,18 @@ input[type="checkbox"]{
         margin: 0px 0px 15px 0px;
         padding: 5px;
         text-align: center;
-        font-size: 1.4em;
+        font-size: 1.3em;
+    }
+
+    h3 {
+        margin: 0px 0px 15px 0px;
+        padding: 5px;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    span {
+        font-size: 1em;
     }
 
     option {
@@ -172,6 +200,7 @@ input[type="checkbox"]{
     p.result {
         margin: 0px 0px 5px 30px;
         padding: 5px;
+        font-size: 0.9em;
     }
 
     p.resultNone {
